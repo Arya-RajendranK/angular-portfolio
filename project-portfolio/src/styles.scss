@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+/* Set full height and remove default margin */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff; /* light text */
+}
+
+/* Make sure app-root fills full height */
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
